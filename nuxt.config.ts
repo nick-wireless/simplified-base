@@ -1,12 +1,21 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  runtimeConfig: {
+    uiProLicence: '',
+    notionApiKey: '',
+    public: {
+      notionDatabaseId: '',
+      siteUrl: ''
+    }
+  },
   extends: ['@nuxt/ui-pro'],
   modules: [
     '@nuxt/content',
     '@nuxt/ui',
     '@nuxt/fonts',
     '@nuxthq/studio',
-    'nuxt-og-image'
+    'nuxt-og-image',
+    '@nuxt/image'
   ],
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
