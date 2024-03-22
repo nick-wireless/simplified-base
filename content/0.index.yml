@@ -23,6 +23,18 @@ hero:
       to: '/blog'
   image:
     src: '/images/members-stand.jpg'
+stages:
+  headline: Stage 01/05
+  title: "Imagining Melbourne's sporting Culture in Darwin"
+  description: "Considering if Darwin's Urban Masterplan had a home for national Sports within the next 30-50 years."
+  align: right
+  links:
+    - label: 'Add your feedback to the strategy'
+      icon: 'i-heroicons-document-plus-20-solid'
+      trailingIcon: 'i-heroicons-arrow-right-20-solid'
+      color: 'gray'
+      to: '/docs'
+      size: lg
 features:
   title: 'Bridging the divide between the north and the south'
   links:

@@ -53,6 +53,20 @@ useSeoMeta({
       >
     </ULandingSection>
 
+    <ULandingSection
+      :headline="page.stages.headline"
+      :title="page.stages.title"
+      :description="page.stages.description"
+      :align="page.stages.align"
+      :links="page.stages.links"
+    >
+      <img
+        src="https://picsum.photos/640/360"
+        class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
+      >
+      <ULandingCard v-for="(item, index) of page.stages.items" :key="index" v-bind="item" />
+    </ULandingSection>
+
     <ULandingSection :title="page.features.title" :links="page.features.links">
       <UPageGrid>
         <ULandingCard v-for="(item, index) of page.features.items" :key="index" v-bind="item" />
