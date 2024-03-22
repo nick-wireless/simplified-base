@@ -52,5 +52,11 @@ useSeoMeta({
         class="w-full  max-h-[400px] object-cover rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
       >
     </ULandingSection>
+
+    <ULandingSection :title="page.features.title" :links="page.features.links">
+      <UPageGrid>
+        <ULandingCard v-for="(item, index) of page.features.items" :key="index" v-bind="item" />
+      </UPageGrid>
+    </ULandingSection>
   </div>
 </template>

@@ -3,12 +3,12 @@ description: "Welcome to the official website for the NT Stadium, driving change
 navigation: false
 hero:
   title: "Empower Darwin's Future: join the Stadium and the 20th AFL License Bid!"
-  description: Discover our strategy insights, aspirations, and breaking news with free subscriptions for all member enrolments.
+  description: Discover our strategy insights, aspirations, and breaking news with free email subscriptions for all member enrolments.
   orientation: horizontal
   align: left
   headline:
     label: Official site for NT supporters & fans
-    to: https://ui.nuxt.com/pro
+    to: '/docs'
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
     - label: Members here
@@ -20,7 +20,38 @@ hero:
       icon: i-heroicons-clipboard-document-list-solid
       size: lg
       color: gray
-      to: https://github.com/nuxt-ui-pro/docs
-      target: _blank
+      to: '/blog'
   image:
     src: '/images/members-stand.jpg'
+features:
+  title: 'Bridging the divide between the north and the south'
+  links:
+    - label: 'Add your support for a stadium'
+      icon: 'i-heroicons-document-plus-20-solid'
+      trailingIcon: 'i-heroicons-arrow-right-20-solid'
+      color: 'gray'
+      to: 'https://ui.nuxt.com/pro'
+      target: '_blank'
+      size: lg
+  items:
+    - title: 'Expanded AFL Coverage'
+      description: 'Featuring a new team set in a landscape of Australias outback.  10 extra games with a backstory unlike any others.'
+      icon: 'i-heroicons-radio'
+      to: 'https://nuxt.com'
+      target: '_blank'
+    - title: 'Empowering Indigenous Talent'
+      description: 'Removing the disadvantages between country to city, fostering better pathways for indigenous sports stars.'
+      icon: 'i-heroicons-stop-circle'
+      to: 'https://content.nuxt.com'
+      target: '_blank'
+    - title: 'Local culture exemplified'
+      description: 'A welcome to country for all, guided with the support of Larrakia peoples.'
+      icon: 'i-heroicons-finger-print'
+      to: 'https://ui.nuxt.com'
+      target: '_blank'
+    - title: 'Iconic by distinction'
+      description: 'A stadium fitting our location, our City and our Peoples of the North.  Of us, for us all.'
+      icon: 'i-heroicons-shield-exclamation'
+      to: 'https://ui.nuxt.com/pro/components/docs/docs-search'
+      target: '_blank'
+
