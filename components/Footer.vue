@@ -80,7 +80,7 @@ function onSubmit () {
     <template #right>
       <UColorModeButton size="sm" />
 
-      <UButton to="https://github.com/nuxt-ui-pro/saas" target="_blank" icon="i-simple-icons-github" aria-label="GitHub" color="gray" variant="ghost" />
+      <UButton to="https://www.linkedin.com/in/nigel-b-a2b25329/" target="_blank" icon="i-simple-icons-linkedin" aria-label="LinkedIn" color="gray" variant="ghost" />
     </template>
   </UFooter>
 </template>

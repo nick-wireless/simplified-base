@@ -1,7 +1,7 @@
 export default defineAppConfig({
   ui: {
-    primary: 'sky',
-    gray: 'cool',
+    primary: 'green',
+    gray: 'slate',
     button: {
       rounded: 'rounded-full',
       default: {
@@ -17,6 +17,7 @@ export default defineAppConfig({
       rounded: 'rounded-xl'
     },
     footer: {
+      
       top: {
         wrapper: 'border-t border-gray-200 dark:border-gray-800',
         container: 'py-8 lg:py-16'
