@@ -31,5 +31,9 @@ export default defineAppConfig({
         wrapper: 'lg:py-24'
       }
     }
+  },
+  header: {
+    colorMode: true,
+    
   }
 })

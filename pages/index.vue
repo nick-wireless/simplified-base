@@ -44,7 +44,7 @@ useSeoMeta({
           :variant="link.variant" 
           :size="link.size" 
           :color="link.color"
-          class=" px-6"
+          class=" px-6 mt-2 sm:mt-0"
         />
       </template>
       <img

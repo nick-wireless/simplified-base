@@ -15,10 +15,10 @@ hero:
       icon: i-heroicons-arrow-left-on-rectangle-20-solid
       trailing: true
       to: '/'
-      size: lg
+      size: md
     - label: Newsroom
       icon: i-heroicons-clipboard-document-list-solid
-      size: lg
+      size: md
       color: gray
       to: '/blog'
   image:
@@ -35,23 +35,27 @@ features:
       size: lg
   items:
     - title: 'Expanded AFL Coverage'
-      description: 'Featuring a new team set in a landscape of Australias outback.  10 extra games with a backstory unlike any others.'
+      description: 'Introducing a new team in the iconic Australian outback landscape. 10 additional games with a backstory unlike any other.'
       icon: 'i-heroicons-radio'
       to: 'https://nuxt.com'
       target: '_blank'
     - title: 'Empowering Indigenous Talent'
-      description: 'Removing the disadvantages between country to city, fostering better pathways for indigenous sports stars.'
+      description: 'Removing the disadvantages between country and city, fostering better pathways for indigenous sports stars.'
       icon: 'i-heroicons-stop-circle'
       to: 'https://content.nuxt.com'
       target: '_blank'
     - title: 'Local culture exemplified'
-      description: 'A welcome to country for all, guided with the support of Larrakia peoples.'
+      description: 'A welcome to country for all, guided by and with the support of Larrakia peoples.'
       icon: 'i-heroicons-finger-print'
       to: 'https://ui.nuxt.com'
       target: '_blank'
     - title: 'Iconic by distinction'
-      description: 'A stadium fitting our location, our City and our Peoples of the North.  Of us, for us all.'
+      description: 'A stadium designed for our location, our City and our Peoples of the North.  Of us, for us all.'
       icon: 'i-heroicons-shield-exclamation'
       to: 'https://ui.nuxt.com/pro/components/docs/docs-search'
       target: '_blank'
-
+    - title: 'Diversifying Industries'
+      description: 'Unlocking new professional pathways to growth in Sports Administration & Communication, diversifying our Northern Economy.'
+      icon: 'i-heroicons-chart-pie'
+      to: 'https://ui.nuxt.com/pro/components/docs/docs-search'
+      target: '_blank'

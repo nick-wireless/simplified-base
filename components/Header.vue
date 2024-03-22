@@ -18,15 +18,22 @@ const links = [{
 <template>
   <UHeader :links="links">
     <template #logo>
-      <NuxtLink to="/" class=" flex items-center space-x-2">
+      <NuxtLink to="/" custom>
         <IconNTStadium class=" h-8" />
         <!-- <UBadge label="Coming Soon" variant="subtle" class="hidden md:block mb-0.5" /> -->
       </NuxtLink>
     </template>
 
     <template #right>
-      <UButton label="Sign in" color="gray" to="/login" />
-      <UButton label="Sign up" icon="i-heroicons-arrow-right-20-solid" trailing color="black" to="/signup" class="hidden lg:flex" />
+      <div>
+        <UColorModeButton class="lg:hidden" />
+        <NuxtLink to="https://www.linkedin.com/in/nigel-b-a2b25329/" target="_blank" custom>
+          <UIcon name="i-simple-icons-linkedin" class="lg:hidden mb-[2px]" />
+        </NuxtLink>
+  
+        <!-- <UButton label="Sign in" color="gray" to="/login" /> -->
+        <UButton label="Sign up" icon="i-heroicons-arrow-right-20-solid" trailing color="black" to="/signup" class="hidden lg:flex" />
+      </div>
     </template>
 
     <template #panel>
