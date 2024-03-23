@@ -49,7 +49,7 @@ useSeoMeta({
       </template>
       <img
         :src="page.hero.image.src"
-        class="w-full  max-h-[400px] object-cover rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
+        class="w-full  max-h-[400px] object-cover rounded-sm shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
       >
     </ULandingSection>
 
@@ -60,10 +60,14 @@ useSeoMeta({
       :align="page.stages.align"
       :links="page.stages.links"
     >
-      <img
-        src="https://picsum.photos/640/360"
-        class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
-      >
+      <div class=" relative h-[45vh] rounded-sm overflow-clip ring-1 ring-gray-300 dark:ring-gray-600 ">
+        <img
+          class=" absolute w-full h-full object-cover "
+          src="/images/darwin-city-aerial.jpg"
+        >
+        <img class=" absolute w-full h-full mix-blend-overlay object-cover opacity-60 " src="/overlays/augustine-wong-T0BYurbDK_M-unsplash.jpg">
+      </div>
+
       <ULandingCard v-for="(item, index) of page.stages.items" :key="index" v-bind="item" />
     </ULandingSection>
 
