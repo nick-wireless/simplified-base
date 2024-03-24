@@ -1,0 +1,98 @@
+title: Membership Sign Up
+description: We are beginning the journey of NT Stadium with our members in mind.  Choose a category of subscription, to join our journey and community.
+navigation.icon: i-heroicons-credit-card
+hero:
+  title: Memberships
+  description: We are beginning the journey of NT Stadium with our members in mind.  Choose a subscription and join our community.
+  align: center
+plans:
+  - title: Enthusiast
+    description: Sign-up for free email updates 
+    price:
+      adult: $0.0
+      child: $0.0
+    cycle: forever
+    align: top
+    button:
+      label: Get Started
+      color: gray
+    features:
+      - Direct news updates
+      - Input on Stadium name
+      - Online input to Stadium designs
+      - Invite list for Stadium membership
+      - Priority waitlist for opening game
+
+  - title: Supporter
+    badge:
+      label: Most popular
+    description: A sports fan placing downpayment for opening game or ceremony
+    price:
+      adult: $55.0
+      child: $10.0
+    cycle: once
+    highlight: true
+    align: top
+    button:
+      label: Get Started
+      color: green
+    features:
+      - Enthusiasts membership benefits plus
+      - Priority seating allocation and ticket allocation in first year
+      - Priority invite for opening ceremony and
+      - Prepament allocation to opening game
+  - title: Founding Member
+    description: A foundation membership provides early access to stadium membership plans
+    price:
+      adult: $85.0
+      child: $20.0
+    cycle: /year
+    align: top
+    button:
+      label: Get Started
+      color: gray
+    features:
+      - Supporter membership benefits plus
+      - Priority invites for feedback & forums
+      - Handpicked medalian number
+      - Prepayment to members annual subscription (and / or)
+      - Prepayment to opening ceremony (and / or)
+      - Prepayment to opening game
+logos:
+  title: Supported by NT Sporting Associations
+  icons:
+    - i-simple-icons-amazonaws
+    - i-simple-icons-heroku
+    - i-simple-icons-netlify
+    - i-simple-icons-vercel
+    - i-simple-icons-cloudflare
+faq:
+  title: Frequently asked questions
+  description: These subscriptions relate to the NT Stadium only.  Read below to answer any quick questions or to understand more about how we are setting up the supporter and membership categories.
+  items:
+    - label: Who qualifies for child memberships?
+      content: At the time of sign-up, children aged 16 or younger are eligible for child pricing on the first season's tickets. Thereafter, if 17+ years old, they transition to adult pricing. When subscribing, please ensure you select the appropriate pricing option based on your child's age today.
+    - label: What does direct news updates mean?
+      content: You will receive email updates of news direct to your inbox.  Enjoy the confidence you will hear direct from the organisers and be the first to know any breaking developments.
+    - label: What is my membership money used for?
+      content: Save for credit card processing fees and GST, we will hold the money in trust in the hope that together we will be successful in our mission.  If we are, the money will be allocated to one of the 20,000 seat tickets for the opening AFL game.
+    - label: What will the opening game be?
+      content: Most definitely an Australian Rules League game.  We are unsure if it will be an exhibition match (think Indigenous All stars) or the first match of the NT's own AFL team.
+    - label: Why have an opening ceremony as well as opening game?
+      content: The opening ceremony will be the official launch to Australia and beyond the stadium.  To begin with we will invite the indigenous peoples through Northern Australia to be welcomed officially to the stadium by Larrakia on Larrakia land.  Beyond this, there isn't a plan and it may be that we choose to join both in the same event at a future date.
+    - label: Why call it a prepayment and not a ticket sale?
+      content: The actual ticket price is unknown and will be dependent on the entertainment plan for the day.  Also, being realistic there is a chance we will not be successful, in which case we will reach out and refund the deposit.
+    - label: Do you offer refunds?
+      content: Not before opening or we decide the project is unsuccessful.  Therefore your payment is the clearest cue on our progress, we will either succeed and contact you for seat allocation or fail contact you to return your deposit.
+    - label: As a Supporter can I waitlist for the opening ceremony instead of the opening game?
+      content: No.  Only Founding Members can choose how to allocate their membership.  As a Supporter we consider you a sports fan.
+    - label: What is meant by priority seating?
+      content: In modern stadiums there are different seating environments designed for the stadium.  These including members and priority sections.  All tickets will have seat identification and the priority seats will be the best seat allocation.  Priority seating does not necessarily mean access to the Members section, which may be a different membership level again.
+    - label: What is meant by priority ticket allocation?
+      content: This means you will be the first to have access to any tickets sold at the stadium.  This should give you the upper hand in securing seats if there are games that are at risk of selling out.
+    - label: What is meant by handpicked medalian number?
+      content: Membership numbers can feel lucky.  The first to enrol will get their choice of number, where available.
+    - label: Is my membership transferrable?
+      content: No.  Memberships are unique, we will use the email address of the subscription as the unique identifier that will give access to your privledges.  Membership privages and medalian number order are non-transferable.
+    - label: What is if I am no longer living in Darwin when the stadium is finished?
+      content: After we have opened, you will be sent an invite.  If you at that time you are unable to attend for any reason, we will return your prepayment.
