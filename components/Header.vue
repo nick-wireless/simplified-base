@@ -15,6 +15,9 @@ const links = [{
 }, {
   label: 'Stadium Circle',
   to: '/stadium-circle/members_circle'
+}, {
+  label: 'Newsroom',
+  to: '/newsroom/comms_centre'
 } ]
 </script>
 
