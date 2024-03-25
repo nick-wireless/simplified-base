@@ -5,7 +5,7 @@ const navigation = inject<Ref<NavItem[]>>('navigation', ref([]))
 
 const links = [{
   label: 'Progress',
-  to: '/progress'
+  to: '/progress/project_updates'
 }, {
   label: 'Blog',
   to: '/blog'
@@ -14,7 +14,7 @@ const links = [{
   to: '/memberships'
 }, {
   label: 'Stadium Circle',
-  to: '/stadium-circle'
+  to: '/stadium-circle/members_circle'
 } ]
 </script>
 
