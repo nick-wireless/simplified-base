@@ -19,6 +19,15 @@ defineOgImage({
 
 const isAdult = ref(true)
 
+const removingTruncate = {
+  features: {
+    item: {
+      label: 'whitespace-normal'
+    }
+  }
+}
+
+
 </script>
 
 <template>
@@ -31,7 +40,7 @@ const isAdult = ref(true)
 
     <UContainer>
       <UPricingGrid>
-        <UPricingCard v-for="(plan, index) in page.plans" :key="index" v-bind="plan" :price="isAdult ? plan.price.adult : plan.price.child" />
+        <UPricingCard v-for="(plan, index) in page.plans" :key="index" v-bind="plan" :price="isAdult ? plan.price.adult : plan.price.child" :ui="removingTruncate" />
       </UPricingGrid>
     </UContainer>
 
