@@ -5,6 +5,7 @@
 -[ ] Attempted to implement the '/DocToc' equivalent with Saas/Docs page and ContentToc. 
 -[ ] Link re-direction to News Hub, within the navigation bar by UAside.
 -[ ] Appears that the Newsroom doesn't show highlight.
+-[ ] A jumble of Layouts vs master page setting up UAside navigation, see progress.vue and newsroom.vue.
 
 ## Worklist
 -[ ] Links on the 'staging' on the Home page.

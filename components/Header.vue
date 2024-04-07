@@ -7,17 +7,14 @@ const links = [{
   label: 'Progress',
   to: '/progress/project_updates'
 }, {
-  label: 'Blog',
-  to: '/blog'
+  label: 'Newsroom',
+  to: '/newsroom/'
 }, {
   label: 'Membership',
   to: '/memberships'
 }, {
   label: 'Stadium Circle',
   to: '/stadium-circle/members_circle'
-}, {
-  label: 'Newsroom',
-  to: '/newsroom/comms_centre'
 } ]
 </script>
 
@@ -31,10 +28,10 @@ const links = [{
     </template>
 
     <template #right>
-      <div>
-        <UColorModeButton class="lg:hidden" />
+      <div class=" flex items-center ">
+        <UColorModeButton class="hidden sm:inline-flex lg:hidden" />
         <NuxtLink to="https://www.linkedin.com/in/nigel-b-a2b25329/" target="_blank" custom>
-          <UIcon name="i-simple-icons-linkedin" class="lg:hidden mb-[2px]" />
+          <UIcon name="i-simple-icons-linkedin" class="lg:hidden mb-[1px] " />
         </NuxtLink>
   
         <!-- <UButton label="Sign in" color="gray" to="/login" /> -->
