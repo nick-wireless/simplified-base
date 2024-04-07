@@ -12,7 +12,6 @@ const isBlogIndex = computed(() => route.currentRoute.value.path.startsWith('/ne
 <template>
   <UContainer>
     <UPage>
-      {{ isBlogIndex }}
       <template v-if="!isBlogIndex" #left>
         <UAside>
           <!-- <template #top>

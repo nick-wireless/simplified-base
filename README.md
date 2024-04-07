@@ -4,6 +4,7 @@
 ## Bug Fixes (Operative form of site)
 -[ ] Attempted to implement the '/DocToc' equivalent with Saas/Docs page and ContentToc. 
 -[ ] Link re-direction to News Hub, within the navigation bar by UAside.
+-[ ] Appears that the Newsroom doesn't show highlight.
 
 ## Worklist
 -[ ] Links on the 'staging' on the Home page.
