@@ -2,6 +2,11 @@ export default defineAppConfig({
   ui: {
     primary: 'green',
     gray: 'slate',
+    blog: {
+      list: {
+        wrapper: 'sm:grid sm:grid-cols-2 lg:grid-cols-3'
+      }
+    },
     button: {
       rounded: 'rounded-full',
       default: {
