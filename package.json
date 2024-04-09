@@ -27,5 +27,8 @@
     "@nuxthq/studio": "^1.0.13",
     "eslint": "^8.57.0",
     "vue-tsc": "^2.0.6"
+  },
+  "engines": {
+    "node": "v20.x"
   }
 }
