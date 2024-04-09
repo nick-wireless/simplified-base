@@ -9,6 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
+    "start": "node .output/server/index.mjs",
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
@@ -27,5 +28,8 @@
     "@nuxthq/studio": "^1.0.13",
     "eslint": "^8.57.0",
     "vue-tsc": "^2.0.6"
+  },
+  "engines": {
+    "node": "v20.x"
   }
 }
