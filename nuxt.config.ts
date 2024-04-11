@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      studioTokens: '8d063d7d6e6700abe0b33af556a4c4b013c2f97a2cefadb31d3417bfe50dbef0'
+    }
+  },
   content: {
     documentDriven: true
   },
