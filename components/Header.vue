@@ -25,7 +25,7 @@ const navOnProgress = computed(() => route.currentRoute.value.path.startsWith('/
 </script>
 
 <template>
-  <UHeader :links="links">
+  <UHeader>
     <template #logo>
       <NuxtLink to="/" custom>
         <IconNTStadium class=" h-8" />
